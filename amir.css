@@ -1,0 +1,173 @@
+@media screen and (max-width: 500px){
+    .amir_pp{
+        width: 170px;
+        height: 170px;}
+
+    .liste_image{
+        height: 50px;}
+
+    .texte_instagram, .texte_mail, .texte_tiktok, .texte_youtube{
+        font-size: 14px;}
+
+    .liste_reseau{
+        width: 30px;
+        height: 10px;}}
+
+html{
+    font-family: "Poppins";
+    background-image: url(space.webp);
+    background-size: cover;
+    background-position: center;}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4em;}
+
+.liste_reseau{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 80px;
+    box-shadow: 3px 7px 10px black;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    background-color: white;}
+
+h1{
+    color: #fff;
+    text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 8px;
+    margin-bottom: 40px;}
+
+.amir_pp{
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;}
+
+.amir_pp:hover{
+    opacity: 0.9;}
+
+
+/*.logo_bn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;}*/
+
+
+.liste_image{
+    height: 50px;
+    margin-left: 10px;
+    background-color: transparent;
+    transition: 0.6s;}
+
+
+.liste_image_tiktok{
+    height: 60px;
+    margin-left: 10px;
+    background-color: transparent;
+    transition: 0.6s;}
+
+.liste_image_gmail{
+    height: 35px;
+    margin-left: 15px;
+    transition: 0.6s;}
+
+
+.liste_image:hover{
+    height: 55px;
+    transform: translateY(-6px);
+    transform: translateX(-6px);
+    transform: rotate(-7deg);}
+
+
+.liste_image_tiktok:hover{
+    height: 67px;
+    transform: translateY(-6px);
+    transform: translateX(-6px);
+    transform: rotate(-7deg);}    
+
+
+.liste_image_gmail:hover{
+    height: 40px;
+    transform: translateY(-6px);
+    transform: translateX(-6px);
+    transform: rotate(-7deg);}
+
+    
+.texte_youtube, .texte_mail, .texte_tiktok, .texte_instagram{
+    flex-grow: 1;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.9em;
+    color: black;
+    text-decoration: none;
+    text-align: start;
+
+    transition: 0.6s;
+    transition-delay: 0s;
+    transition-timing-function: ease;}
+
+.texte_youtube:hover{
+    color: rgb(190, 13, 10);
+    font-size: 2.1em;
+    transform: translateX(-6px);}
+
+.texte_instagram:hover{
+    color: rgb(194, 15, 125);
+    font-size: 2.1em;
+    transform: translateX(-6px);}
+
+.texte_tiktok:hover{
+    color: rgb(20, 172, 214);
+    font-size: 2.1em;
+    transform: translateX(-8px);}
+
+.texte_mail:hover{
+    color: rgb(214, 143, 21);
+    font-size: 2.1em;
+    transform: translateX(-8px);}
+
+
+@keyframes slide {
+    from{
+        transform: translateX(-200px);}
+    to{
+        transform: translateX(0)}}
+
+
+@keyframes rotation {
+    from{
+        transform: rotate(360deg);}
+    to{
+        transform: rotate(0deg);}}
+
+/*h1:hover{
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);}
+
+    40%{
+        transform: translateY(-10px);}
+
+    60%{
+        transform: translateY(-10px);}}*/
